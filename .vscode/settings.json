@@ -1,0 +1,40 @@
+{
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    ".next": true,
+    ".now": true
+  },
+  "files.insertFinalNewline": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.format.enable": false,
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": true
+  }
+}
